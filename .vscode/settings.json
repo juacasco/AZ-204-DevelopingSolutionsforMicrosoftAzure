@@ -1,5 +1,11 @@
 {
     "cSpell.words": [
         "deserializes"
-    ]
+    ],
+    "azureFunctions.projectSubpath": "Allfiles\\Labs\\02\\Solution\\func",
+    "azureFunctions.deploySubpath": "Allfiles\\Labs\\02\\Solution\\func/bin/Release/net6.0/publish",
+    "azureFunctions.projectLanguage": "C#",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "publish (functions)"
 }
