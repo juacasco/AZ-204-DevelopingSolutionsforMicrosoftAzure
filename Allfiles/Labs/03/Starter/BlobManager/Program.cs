@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 public class Program
 {
-    private const string blobServiceEndpoint = "https://mediastorjuacasco.blob.core.windows.net/";
-    private const string storageAccountName = "mediastorjuacasco";
-    private const string storageAccountKey = "3rsam0gAromxCzq0NbnfCtdia1tZAFKJkUANC2Ev/OXXAVH+LDlstTNwdq4exFMpiQdyPY4B2mzE+AStewug7A==";
+    private const string blobServiceEndpoint = "";
+    private const string storageAccountName = "";
+    private const string storageAccountKey = "";
     public static async Task Main(string[] args)
     {
         StorageSharedKeyCredential accountCredentials = new StorageSharedKeyCredential(storageAccountName, storageAccountKey);
