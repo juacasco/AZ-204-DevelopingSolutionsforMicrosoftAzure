@@ -22,7 +22,6 @@ public class Program
         await Console.Out.WriteLineAsync($"Account name:\t{storageAccountName}");
         await Console.Out.WriteLineAsync($"Account kind:\t{info?.AccountKind}");
         await Console.Out.WriteLineAsync($"Account sku:\t{info?.SkuName}");
-
         await EnumerateContainersAsync(serviceClient);
 
         string existingContainerName = "raster-graphics";
